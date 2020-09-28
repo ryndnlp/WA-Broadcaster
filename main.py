@@ -22,8 +22,10 @@ if(__name__ == '__main__'):
     end = int(input())
     print('Timeout (Default 10): ', end="") #Kalau koneksi lagi lag, naikin aja yak
     timeout = int(input())
+    print('Nama file text: ', end="")
+    filename = input()
     #Setup txt
-    f = open('text.txt', 'r')
+    f = open(filename, 'r')
     text = f.read()
     template = []
     for t in text.split('\n'):

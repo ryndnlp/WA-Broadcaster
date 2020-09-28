@@ -1,11 +1,10 @@
 [ Tutorial Programming Gratis ]
-Halo {nama}, perkenalkan kami dari HMIF ITB yang beberapa waktu lalu membagikan form pendaftaran tutorial gratis lewat google form. Untuk itu, kami ingin mengajak anda untuk join grup whatsapp ini untuk info info lebih lanjut mengenai tutorial ini. Adapun informasi informasi penting:
-- Tutorial akan dilaksanakan 3 Oktober - Desember tengah
-- Tutorial ini akan diadakan lewat thinkific dan google meet. Bila anda merasa asing dengan kedua platform ini, nanti akan dijelaskan cara pemakaiannya
-- Mohon menjaga tata tertib dan kesopanan dalam grup
-- Bila ada pertanyaan terkait tutorial ini, bisa ditanyakan lewat grup atau lewat pertemuan tatap muka yang nanti kami adakan
-- Teknis teknis mengenai pelaksanaan tutorial akan diberikan pada hari tatap muka pertama
+Halo {nama}, perkenalkan kami dari HMIF ITB yang beberapa waktu lalu membagikan form pendaftaran tutorial gratis lewat google form. Untuk itu, kami ingin mengajak anda untuk join grup whatsapp ini untuk info info lebih lanjut mengenai tutorial ini. 
+Forum Terbuka: https://chat.whatsapp.com/CLvzumgyPfNK2ov0kRleRA 
+Grup Informasi: https://chat.whatsapp.com/FlrZjfi8O130hoRsyix9yu 
 
-Link Grup Whatsapp: 
+Mohon membaca teknis tutorial di :
+http://bit.ly/TeknisTutorialAPB
 
-Terimakasih telah mendaftar tutorial ini. Semoga dengan tutorial ini, anda dapat mengerti dasar dasar pemrograman dan menerapkannya dalam kehidupan sehari hari. Terimakasih!
+Terimakasih, dan selamat belajar!
+Harap untuk tidak membalas pesan ini, bila ada yang ingin ditanyakan dapat mengisi form yang tertera pada teknis, forum terbuka, atau ke contact person.
