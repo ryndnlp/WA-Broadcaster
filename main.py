@@ -59,7 +59,7 @@ if(__name__ == '__main__'):
             if(isAvail):
                 browser.switch_to.alert.accept()
             #Wait render website
-            wait = WebDriverWait(driver=browser, timeout=10).until(EC.presence_of_element_located((By.ID, 'side')))
+            wait = WebDriverWait(driver=browser, timeout=timeout).until(EC.presence_of_element_located((By.ID, 'side')))
             inputField = browser.find_elements_by_class_name('_3FRCZ')[1]
             #Start typing
             sent = template[0]
@@ -76,6 +76,7 @@ if(__name__ == '__main__'):
             success = open('success.txt', 'a+')
             success.write(r[0] + ' - ' + r[1] + '\n')
             success.close()
+            time.sleep(5)
         except IndexError as e:
             #Send status
             print('Failed to send text to ' + r[0] +  ' - ' + r[1])
