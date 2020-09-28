@@ -34,7 +34,7 @@ if(__name__ == '__main__'):
         template.append(t) 
     #Setup csv
     res = []
-    file = open(csvname, 'r+')
+    file = open(csvname, 'r+', encoding="utf8")
     reader = csv.reader(file)
     header = next(reader, None)
     column_nama = header.index('Nama')
