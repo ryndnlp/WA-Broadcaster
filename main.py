@@ -30,7 +30,7 @@ if(__name__ == '__main__'):
         template.append(t) 
     #Setup csv
     res = []
-    file = open('data.csv', 'r')
+    file = open('data.csv', 'r+')
     reader = csv.reader(file)
     header = next(reader, None)
     column_nama = header.index('Nama')
@@ -69,12 +69,12 @@ if(__name__ == '__main__'):
             send_button.send_keys(Keys.ENTER)
             #Send status
             print('Done sending to ' + r[0] + ' - ' + r[1])
-            success = open('success.txt', 'a')
+            success = open('success.txt', 'a+')
             success.write(r[0] + ' - ' + r[1] + '\n')
             success.close()
         except IndexError as e:
             #Send status
-            print('Failed to send text to A' + r[0] +  ' - ' + r[1])
-            failure = open('failure.txt', 'a')
+            print('Failed to send text to ' + r[0] +  ' - ' + r[1])
+            failure = open('failure.txt', 'a+')
             failure.write(r[0] + ' - ' + r[1] + '\n')
             failure.close()
