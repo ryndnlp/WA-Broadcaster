@@ -24,6 +24,8 @@ if(__name__ == '__main__'):
     timeout = int(input())
     print('Nama file text: ', end="")
     filename = input()
+    print('Nama file csv: ', end="")
+    csvname = input()
     #Setup txt
     f = open(filename, 'r')
     text = f.read()
@@ -32,7 +34,7 @@ if(__name__ == '__main__'):
         template.append(t) 
     #Setup csv
     res = []
-    file = open('data.csv', 'r+')
+    file = open(csvname, 'r+', encoding="utf8")
     reader = csv.reader(file)
     header = next(reader, None)
     column_nama = header.index('Nama')
